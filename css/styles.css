@@ -118,7 +118,8 @@ img {
     position: absolute;
     right: 16px;
     top: 16px;
-
+    background-color: #FFF;
+    border: #FFF;
 }
 
 .mob-btn:hover,
@@ -730,9 +731,6 @@ img {
 }
 
 .email-form {
-    /*display: flex;
-    align-items: baseline;
-    gap: 24px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1161,6 +1159,7 @@ img {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
+        gap: 72px 24px;
     }
         .footer-logo {
             justify-content: flex-start;
@@ -1178,11 +1177,6 @@ img {
     .footer-soc {
         flex-direction: column;
     }
-
-    /*.email {
-        display: flex;
-        flex-wrap: wrap;
-    }*/
 
     .modal {
         width: 408px;
@@ -1306,21 +1300,19 @@ img {
         max-width: 1440px;
         display: flex;
         align-items: baseline;
+        justify-content: space-between;
     }
 
     .footer-logo {
         justify-content: flex-start;
     }
-
     .footer-logo-one {
         width: 264px;
-        /*margin-right: 120px;*/
+        margin-right: 120px;
     }
-
-    .footer-soc {
-        justify-content: flex-start;
-
-    }
+        .footer-soc-link {
+            margin-right: 80px;
+        }
 
     .email {
         flex-direction: column;
@@ -1328,7 +1320,6 @@ img {
 
     .email-form {
         display: flex;
-        /*align-items: baseline;*/
         gap: 24px;
     }
 
